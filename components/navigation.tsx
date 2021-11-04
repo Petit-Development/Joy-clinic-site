@@ -13,13 +13,13 @@ const Navigation: React.FC<NavigationProps> = ({}) => (
     </nav>
     <div className="pb-20"></div>
     <div className="hidden pt-24 md:visible lg:inline-block">
-        <Image
-          src={"/header.png"}
-          objectFit="contain"
-          layout="fixed"
-          width={1400}
-          height={283}
-        />
+      <Image
+        src={"/header.png"}
+        objectFit="contain"
+        layout="fixed"
+        width={1400}
+        height={283}
+      />
     </div>
   </div>
 );
@@ -32,22 +32,20 @@ interface NavigationButtonProps {
 const NavigationButton: React.FC<NavigationButtonProps> = ({ name, dest }) => (
   <div className="flex items-center h-14 lg:h-20 hover:underline">
     <Link href={dest}>
-      <a className="text-center text-l lg:text-2xl md:text-2xl sm:text-xl">{name}</a>
+      <a className="w-20 text-center text-l lg:text-2xl md:text-2xl sm:text-xl">
+        {name}
+      </a>
     </Link>
   </div>
 );
 const buttons = [
   {
-    name: "Home",
-    dest: "/",
-  },
-  {
     name: "About",
     dest: "/about",
   },
   {
-    name: "Gallery",
-    dest: "/gallery",
+    name: "Home",
+    dest: "/",
   },
   {
     name: "Get Involved",
