@@ -30,9 +30,9 @@ interface NavigationButtonProps {
 }
 
 const NavigationButton: React.FC<NavigationButtonProps> = ({ name, dest }) => (
-  <div className="flex items-center h-14 lg:h-20 hover:underline">
+  <div className="flex items-center inline-block h-14 lg:h-20 hover:underline">
     <Link href={dest}>
-      <a className="w-20 text-center text-l lg:text-2xl md:text-2xl sm:text-xl">
+      <a className="w-20 text-center lg:w-40 text-l lg:text-2xl md:text-2xl">
         {name}
       </a>
     </Link>
