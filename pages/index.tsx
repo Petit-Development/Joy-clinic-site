@@ -13,7 +13,8 @@ export default function Home() {
       </Head>
 
       <Navigation />
-      <main className="lg:pl-48 lg:pr-48 md:pl-28 md:pr-28">
+      <main className="space-y-8 lg:pl-48 lg:pr-48 md:pl-28 md:pr-28">
+        <PSection />
         <PSection />
       </main>
     </div>
