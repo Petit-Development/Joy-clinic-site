@@ -46,16 +46,13 @@ const sections = [
     ),
   },
   {
-    title: "Advocacy",
+    title: "Intervention",
     image: "/advocacy.jpg",
     child: (
       <Paragraph>
-        J.O.Y. The Free Resources Clinic believes in Prevention. It is a
-        healthcare choice that will answer questions/concerns with possible
-        solutions and will make the health journey a healing one from inside and
-        out. As we understand, healing is a process just as prevention is a
-        process but when we prevent a disease early on, healing becomes
-        something of the past.
+        At J.O.Y. The Free Resources Clinic, lnc., it refers to actions taken by
+        our volunteers and health professional to directly provide service or
+        support to at-need individuals.
       </Paragraph>
     ),
   },
@@ -64,12 +61,10 @@ const sections = [
     image: "/advocacy.jpg",
     child: (
       <Paragraph>
-        J.O.Y. The Free Resources Clinic believes in Prevention. It is a
-        healthcare choice that will answer questions/concerns with possible
-        solutions and will make the health journey a healing one from inside and
-        out. As we understand, healing is a process just as prevention is a
-        process but when we prevent a disease early on, healing becomes
-        something of the past.
+        At J.O.Y. The Free Resources Clinic. Inc., we seriously take this role -
+        advocate and fight for the rights of those vulnerables and work to
+        obtain needed resources by convincing others of the legitimate needs and
+        rights of "the least of these" members of our community.
       </Paragraph>
     ),
   },
