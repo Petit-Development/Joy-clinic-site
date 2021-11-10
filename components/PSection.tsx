@@ -11,17 +11,19 @@ const PSection: React.FC<PSectionProps> = ({
   children,
 }) => {
   const flippedOrdering = {
-    initial: alt ? 'lg:flex-row-reverse' : '',
-    align: alt ? 'lg:text-right pl-24 ' : 'lg:text-left',
-    margined: alt ? 'lg:mx-24' : '',
+    initial: alt ? "lg:flex-row-reverse" : "",
+    align: alt ? "lg:text-right pl-24 " : "",
+    margined: alt ? "lg:mx-24" : "",
   };
   return (
-    <div className={`${flippedOrdering.initial} items-start justify-center lg:flex lg:pt-10`}>
-      <div className={`flex justify-center ${flippedOrdering.align} lg:flex-col lg:justify-start`}>
+    <div
+      className={`${flippedOrdering.initial} items-start justify-center lg:flex lg:pt-10`}
+    >
+      <div
+        className={`flex justify-center ${flippedOrdering.align} lg:flex-col lg:justify-start`}
+      >
         <TitledHeader text={title} />
-        <p className="hidden max-w-2xl pt-10 text-2xl lg:inline-block leading-10">
-          {children}
-        </p>
+        {children}
       </div>
 
       <div className="flex justify-center lg:filter lg:drop-shadow-xl lg:ml-24 mt-7 ">
