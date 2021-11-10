@@ -13,16 +13,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navigation />
-      <PSection alt={false} title="About" image="/about.jpg">
-        <Paragraph>
-          J.O.Y – The Free Resources Clinic is a faith-based organization
-          providing free information and health resources to those who are
-          either uninsured or underinsured and without access to available care
-          services in the Oklahoma City community. ... becomes even more
-          profound on vulnerability and unmet health care.
-        </Paragraph>
-      </PSection>
-      <Main></Main>
+      <Main>
+        <PSection alt={false} title="About" image="/about.jpg">
+          <Paragraph>
+            J.O.Y – The Free Resources Clinic is a faith-based organization
+            providing free information and health resources to those who are
+            either uninsured or underinsured and without access to available
+            care services in the Oklahoma City community. ... becomes even more
+            profound on vulnerability and unmet health care.
+          </Paragraph>
+        </PSection>
+      </Main>
     </div>
   );
 }
