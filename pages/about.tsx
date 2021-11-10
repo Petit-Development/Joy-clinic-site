@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Main from "../components/Main";
 import Navigation from "../components/navigation";
 import Paragraph from "../components/Paragraph";
 import PSection from "../components/PSection";
@@ -21,52 +22,7 @@ export default function Home() {
           profound on vulnerability and unmet health care.
         </Paragraph>
       </PSection>
-      <main className="space-y-8 lg:pl-48 lg:pr-48 md:pl-28 md:pr-28"></main>
+      <Main></Main>
     </div>
   );
 }
-
-const sections = [
-  {
-    title: "Prevention",
-    image: "/prevention.jpg",
-    child: (
-      <Paragraph>
-        J.O.Y. The Free Resources Clinic believes in Prevention. It is a
-        healthcare choice that will answer questions/concerns with possible
-        solutions and will make the health journey a healing one from inside and
-        out. As we understand, healing is a process just as prevention is a
-        process but when we prevent a disease early on, healing becomes
-        something of the past.
-      </Paragraph>
-    ),
-  },
-  {
-    title: "Advocacy",
-    image: "/advocacy.jpg",
-    child: (
-      <Paragraph>
-        J.O.Y. The Free Resources Clinic believes in Prevention. It is a
-        healthcare choice that will answer questions/concerns with possible
-        solutions and will make the health journey a healing one from inside and
-        out. As we understand, healing is a process just as prevention is a
-        process but when we prevent a disease early on, healing becomes
-        something of the past.
-      </Paragraph>
-    ),
-  },
-  {
-    title: "Advocacy",
-    image: "/advocacy.jpg",
-    child: (
-      <Paragraph>
-        J.O.Y. The Free Resources Clinic believes in Prevention. It is a
-        healthcare choice that will answer questions/concerns with possible
-        solutions and will make the health journey a healing one from inside and
-        out. As we understand, healing is a process just as prevention is a
-        process but when we prevent a disease early on, healing becomes
-        something of the past.
-      </Paragraph>
-    ),
-  },
-];

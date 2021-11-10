@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
+import Main from "../components/Main";
 import Navigation from "../components/navigation";
 import Paragraph from "../components/Paragraph";
 import PSection from "../components/PSection";
@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
 
       <Navigation />
-      <main className="space-y-8 lg:pl-48 lg:pr-48 md:pl-28 md:pr-28">
+      <Main>
         {sections.map((item, index) => (
           <PSection
             alt={index % 2 == 1}
@@ -25,7 +25,7 @@ export default function Home() {
             {item.child}
           </PSection>
         ))}
-      </main>
+      </Main>
     </div>
   );
 }
