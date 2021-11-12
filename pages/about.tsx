@@ -8,7 +8,11 @@ export default function About() {
   return (
     <div>
       <Head>
-        <title>JOY - Get Involved</title>
+        <meta
+          name="description"
+          content="Joy Clinic, bringing help to underrepresented communities in Oklahoma"
+        />
+        <title>Joy Clinic - About</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navigation />
