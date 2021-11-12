@@ -47,7 +47,7 @@ const sections = [
   },
   {
     title: "Intervention",
-    image: "/advocacy.jpg",
+    image: "/intervention.jpg",
     child: (
       <Paragraph>
         At J.O.Y. The Free Resources Clinic, lnc., it refers to actions taken by
